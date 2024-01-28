@@ -2,7 +2,7 @@
     display: block;
     width: 400px;
     height: 400px;
-    background-image: url(/media/MOREmoji_pink_heart.svg);
+    background-image: url(MOREmoji_pink_heart.svg);
     background-size: cover;
     position: absolute;
     left:50%;
