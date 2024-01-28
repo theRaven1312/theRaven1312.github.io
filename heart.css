@@ -1,0 +1,21 @@
+.heart {
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-image: url(/media/MOREmoji_pink_heart.svg);
+    background-size: cover;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    animation: beat 1s infinite;      
+}
+
+
+@keyframes beat {
+    0% {width: 400px; height: 400px;}
+    25% {width: 250px; height: 250px;}
+    75% {width: 300px; height: 300px;}
+    100% {width: 410px; height: 410px;}
+}
+
